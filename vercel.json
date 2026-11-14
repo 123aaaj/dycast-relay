@@ -1,0 +1,1 @@
+{"rewrites":[{"destination":"/api/relay?path=/api/:path*","source":"/api/:path*"},{"destination":"/api/relay?path=/appPush","source":"/appPush"},{"destination":"/api/relay?path=/appHeart","source":"/appHeart"}]}
