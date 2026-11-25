@@ -2,6 +2,12 @@
   functions = "netlify/functions"
 
 [[redirects]]
+  from = "/api/modules/key"
+  to = "/.netlify/functions/relay?path=/api/modules/key"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/relay?path=/api/:splat"
   status = 200
