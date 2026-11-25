@@ -3,7 +3,7 @@
 
 [[redirects]]
   from = "/api/modules/key"
-  to = "/.netlify/functions/relay?path=/api/modules/key"
+  to = "https://dycast-website.pages.dev/api/modules/key"
   status = 200
   force = true
 
