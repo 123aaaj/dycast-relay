@@ -8,6 +8,12 @@
   force = true
 
 [[redirects]]
+  from = "/api/cards/check"
+  to = "https://dycast-website.pages.dev/api/cards/check"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/relay?path=/api/:splat"
   status = 200
